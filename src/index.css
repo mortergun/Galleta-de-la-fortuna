@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.coockie {
+  width: 100px;
+  height: 100px;
+}
+
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.fortuna {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  max-width: 1020px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  position: relative;
+  display: center;
+}
+
+.text{
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -175%);
+  z-index: 1;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.imgFortuna {
+  width: 800px;
+}
+
+button{
+  background-color: transparent;
+  padding: 3rem, 1rem;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .fortuna {
+    padding: 1rem;
+  }
+
+  .text{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -175%);
+    z-index: 1;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+  .imgFortuna {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .fortuna {
+    padding: 1.2rem;
+  }
+
+  .text{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -175%);
+    z-index: 1;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .imgFortuna {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
